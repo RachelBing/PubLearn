@@ -1,0 +1,198 @@
+{
+  "main": {
+    "id": "71ea52d865d4f992",
+    "type": "split",
+    "children": [
+      {
+        "id": "5089be278f3efdb8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f83a52c90e66e3aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SUMMARY.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d67e0eaff13ddc87",
+    "type": "split",
+    "children": [
+      {
+        "id": "7615516abb6c5e95",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "74d3826ed7493880",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "05991d4921030984",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2f26b5c007fa5230",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ebb1abb8001b9743",
+    "type": "split",
+    "children": [
+      {
+        "id": "9c6f90f3f1c2e805",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ee9cebf5c405f9f3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "SUMMARY.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6c4864afea256768",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "SUMMARY.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e89e9a3f0f3f26f9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "dd27255edc4bfa6f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "SUMMARY.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "f83a52c90e66e3aa",
+  "lastOpenFiles": [
+    "README.md",
+    "SUMMARY.md",
+    "_book/search_index.json",
+    "_book/index.html",
+    "_book/招聘资料收集/面试准备流程.md",
+    "_book/招聘资料收集/面试.md",
+    "_book/招聘资料收集/硬件/笔试.md",
+    "_book/招聘资料收集/硬件/开放性问题.md",
+    "_book/招聘资料收集/硬件/常见基础问题.md",
+    "_book/招聘资料收集/硬件/Hardware Framework.md",
+    "_book/招聘资料收集/硬件",
+    "_book/招聘资料收集/技术栈.mindmap",
+    "_book/招聘资料收集/岗位需求.md",
+    "_book/招聘资料收集/半导体/面试提问.md",
+    "_book/招聘资料收集/半导体/FAB相关介绍.note.pdf",
+    "_book/招聘资料收集/半导体",
+    "_book/招聘资料收集/医疗器械研发/行业基础知识.md",
+    "_book/招聘资料收集/医疗器械研发",
+    "_book/招聘资料收集/关联工作和简历.mindmap",
+    "_book/招聘资料收集/专代/专代.md",
+    "_book/招聘资料收集/专代",
+    "_book/招聘资料收集/resource.md",
+    "_book/招聘资料收集/IT/无标题脑图.mindmap",
+    "_book/办公软件使用/EXCEL/EXCEL技巧.md",
+    "_book/信通/通信原理/调制.md",
+    "_book/IT/编程/面向对象.md",
+    "_book/EE硬件/基础.md",
+    "_book/gitbook/images/apple-touch-icon-precomposed-152.png",
+    "_book/EE硬件/元器件/继电器/继电器.md",
+    "_book/EE硬件/元器件/磁路&变压器/磁路&变压器.md",
+    "_book/EE硬件/处理器/嵌入式/中断/中断.md",
+    "_book/EE硬件/处理器/嵌入式/中断/Pasted image 20240127145349.png",
+    "_book/EE硬件/处理器/嵌入式/中断/Pasted image 20240127111048.png",
+    "_book/EE硬件/处理器/嵌入式/模块/模块.md",
+    "_book/EE硬件/处理器/嵌入式/模块/Pasted image 20240109212809.png",
+    "_book/EE硬件/处理器/嵌入式/STM32/VSCode+Keil 5 MDK配置STM32F407开发环境.md",
+    "_book/EE硬件/处理器/嵌入式/STM32/STM32时钟.md",
+    "_book/EE硬件/处理器/嵌入式/STM32/STM32.md",
+    "_book/EE硬件/处理器/嵌入式/ESP32/ESP32.md",
+    "_book/EE硬件/处理器/嵌入式/CLK/时钟信号上下拉.md",
+    "_book/EE硬件/处理器/FPGA/基础/Pasted image 20240303232137.png",
+    "_book/EE硬件/处理器/介绍/Pasted image 20230924132911.png",
+    "_book/EE硬件/处理器/介绍/Pasted image 20230924132839.png",
+    "_book/EE硬件/处理器/介绍/Pasted image 20230924132818.png",
+    "_book/EE硬件/处理器/介绍/Pasted image 20230924132758.png",
+    "_book/EE硬件/处理器/介绍/Pasted image 20230924132722.png"
+  ]
+}

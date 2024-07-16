@@ -1,0 +1,2080 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>时钟信号上下拉 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../ESP32/ESP32.html" />
+    
+    
+    <link rel="prev" href="时钟.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../../../">
+            
+                <a href="../../../../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    EE硬件
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" >
+            
+                <span>
+            
+                    
+                    EDA
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1.1" >
+            
+                <span>
+            
+                    
+                    Cadence
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1.1.1" data-path="../../../EDA/Cadence/sch/sch.html">
+            
+                <a href="../../../EDA/Cadence/sch/sch.html">
+            
+                    
+                    Sch
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.1.2" data-path="../../../EDA/Cadence/基本操作.html">
+            
+                <a href="../../../EDA/Cadence/基本操作.html">
+            
+                    
+                    基本操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.2" >
+            
+                <span>
+            
+                    
+                    Mentor PADS
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1.2.1" data-path="../../../EDA/Mentor%20PADS/PADS.md">
+            
+                <span>
+            
+                    
+                    PADS
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" >
+            
+                <span>
+            
+                    
+                    PCB
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.2.1" data-path="../../../PCB/设计准则.html">
+            
+                <a href="../../../PCB/设计准则.html">
+            
+                    
+                    设计准则
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" >
+            
+                <span>
+            
+                    
+                    Projects
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.3.1" data-path="../../../Projects/Z7045/z7045.html">
+            
+                <a href="../../../Projects/Z7045/z7045.html">
+            
+                    
+                    Z 7045
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" >
+            
+                <span>
+            
+                    
+                    元器件
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.4.1" data-path="../../../元器件/mos/mos.html">
+            
+                <a href="../../../元器件/mos/mos.html">
+            
+                    
+                    Mos
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4.2" data-path="../../../元器件/三极管/三极管.html">
+            
+                <a href="../../../元器件/三极管/三极管.html">
+            
+                    
+                    三极管
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4.3" data-path="../../../元器件/二极管/二极管.html">
+            
+                <a href="../../../元器件/二极管/二极管.html">
+            
+                    
+                    二极管
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.4.3.1" data-path="../../../元器件/二极管/二极管-ref.html">
+            
+                <a href="../../../元器件/二极管/二极管-ref.html">
+            
+                    
+                    二极管-ref
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4.4" data-path="../../../元器件/材料/材料.html">
+            
+                <a href="../../../元器件/材料/材料.html">
+            
+                    
+                    材料
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4.5" data-path="../../../元器件/电容/电容.html">
+            
+                <a href="../../../元器件/电容/电容.html">
+            
+                    
+                    电容
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4.6" data-path="../../../元器件/电感/电感.html">
+            
+                <a href="../../../元器件/电感/电感.html">
+            
+                    
+                    电感
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4.7" data-path="../../../元器件/电阻/电阻.html">
+            
+                <a href="../../../元器件/电阻/电阻.html">
+            
+                    
+                    电阻
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4.8" data-path="../../../元器件/磁珠/磁珠.html">
+            
+                <a href="../../../元器件/磁珠/磁珠.html">
+            
+                    
+                    磁珠
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4.9" data-path="../../../元器件/磁路&变压器/磁路&变压器.html">
+            
+                <a href="../../../元器件/磁路&变压器/磁路&变压器.html">
+            
+                    
+                    磁路&变压器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4.10" data-path="../../../元器件/继电器/继电器.html">
+            
+                <a href="../../../元器件/继电器/继电器.html">
+            
+                    
+                    继电器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4.11" data-path="../../../元器件/逻辑器件/逻辑器件.html">
+            
+                <a href="../../../元器件/逻辑器件/逻辑器件.html">
+            
+                    
+                    逻辑器件
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" >
+            
+                <span>
+            
+                    
+                    功率电子
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.5.1" data-path="../../../功率电子/DCDC/DCDC.html">
+            
+                <a href="../../../功率电子/DCDC/DCDC.html">
+            
+                    
+                    DCDC
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5.2" data-path="../../../功率电子/LDO/LDO.html">
+            
+                <a href="../../../功率电子/LDO/LDO.html">
+            
+                    
+                    LDO
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5.3" >
+            
+                <span>
+            
+                    
+                    交流
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.5.3.1" data-path="../../../功率电子/交流/功率.html">
+            
+                <a href="../../../功率电子/交流/功率.html">
+            
+                    
+                    功率
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5.4" data-path="../../../功率电子/电源.html">
+            
+                <a href="../../../功率电子/电源.html">
+            
+                    
+                    电源
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" >
+            
+                <span>
+            
+                    
+                    处理器
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.6.1" >
+            
+                <span>
+            
+                    
+                    FPGA
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.6.1.1" data-path="../../FPGA/基础/基础.html">
+            
+                <a href="../../FPGA/基础/基础.html">
+            
+                    
+                    基础
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6.1.2" data-path="../../FPGA/FPGA基础.html">
+            
+                <a href="../../FPGA/FPGA基础.html">
+            
+                    
+                    FPGA基础
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6.2" >
+            
+                <span>
+            
+                    
+                    介绍
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.6.2.1" data-path="../../介绍/开发平台介绍.html">
+            
+                <a href="../../介绍/开发平台介绍.html">
+            
+                    
+                    开发平台介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6.3" >
+            
+                <span>
+            
+                    
+                    嵌入式
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.6.3.1" >
+            
+                <span>
+            
+                    
+                    CLK
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.6.3.1.1" data-path="时钟.html">
+            
+                <a href="时钟.html">
+            
+                    
+                    时钟
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.6.3.1.2" data-path="时钟信号上下拉.html">
+            
+                <a href="时钟信号上下拉.html">
+            
+                    
+                    时钟信号上下拉
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6.3.2" data-path="../ESP32/ESP32.html">
+            
+                <a href="../ESP32/ESP32.html">
+            
+                    
+                    ESP 32
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6.3.3" data-path="../STM32/STM32.html">
+            
+                <a href="../STM32/STM32.html">
+            
+                    
+                    STM 32
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.6.3.3.1" data-path="../STM32/STM32时钟.html">
+            
+                <a href="../STM32/STM32时钟.html">
+            
+                    
+                    STM32时钟
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6.3.3.2" data-path="../STM32/VSCode+Keil%205 MDK配置STM32F407开发环境.md">
+            
+                <span>
+            
+                    
+                    VSCode+Keil 5 MDK配置STM32F407开发环境
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6.3.4" data-path="../中断/中断.html">
+            
+                <a href="../中断/中断.html">
+            
+                    
+                    中断
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6.3.5" data-path="../模块/模块.html">
+            
+                <a href="../模块/模块.html">
+            
+                    
+                    模块
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6.3.6" data-path="../Problems.html">
+            
+                <a href="../Problems.html">
+            
+                    
+                    Problems
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6.3.7" data-path="../芯片外设.html">
+            
+                <a href="../芯片外设.html">
+            
+                    
+                    芯片外设
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6.3.8" data-path="../调试.html">
+            
+                <a href="../调试.html">
+            
+                    
+                    调试
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" >
+            
+                <span>
+            
+                    
+                    模块电路
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.7.1" data-path="../../../模块电路/ADC/ADC.html">
+            
+                <a href="../../../模块电路/ADC/ADC.html">
+            
+                    
+                    ADC
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7.2" >
+            
+                <span>
+            
+                    
+                    串口
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.7.2.1" data-path="../../../模块电路/串口/I2C/I2C.html">
+            
+                <a href="../../../模块电路/串口/I2C/I2C.html">
+            
+                    
+                    I 2 C
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7.2.2" data-path="../../../模块电路/串口/RS/RS.html">
+            
+                <a href="../../../模块电路/串口/RS/RS.html">
+            
+                    
+                    RS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7.2.3" data-path="../../../模块电路/串口/SPI/SPI.html">
+            
+                <a href="../../../模块电路/串口/SPI/SPI.html">
+            
+                    
+                    SPI
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7.2.4" data-path="../../../模块电路/串口/USB/USB.html">
+            
+                <a href="../../../模块电路/串口/USB/USB.html">
+            
+                    
+                    USB
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7.2.5" >
+            
+                <span>
+            
+                    
+                    电平
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.7.2.5.1" data-path="../../../模块电路/串口/电平/串口&电平标准.html">
+            
+                <a href="../../../模块电路/串口/电平/串口&电平标准.html">
+            
+                    
+                    串口&电平标准
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7.2.6" data-path="../../../模块电路/串口/网口/网口.html">
+            
+                <a href="../../../模块电路/串口/网口/网口.html">
+            
+                    
+                    网口
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7.3" data-path="../../../模块电路/光耦/光耦.html">
+            
+                <a href="../../../模块电路/光耦/光耦.html">
+            
+                    
+                    光耦
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7.4" data-path="../../../模块电路/常见电路/常见电路.html">
+            
+                <a href="../../../模块电路/常见电路/常见电路.html">
+            
+                    
+                    常见电路
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7.5" data-path="../../../模块电路/滤波器/滤波器.html">
+            
+                <a href="../../../模块电路/滤波器/滤波器.html">
+            
+                    
+                    滤波器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7.6" >
+            
+                <span>
+            
+                    
+                    运放相关
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.7.6.1" data-path="../../../模块电路/运放相关/应用问题.html">
+            
+                <a href="../../../模块电路/运放相关/应用问题.html">
+            
+                    
+                    应用问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7.6.2" data-path="../../../模块电路/运放相关/比较器.html">
+            
+                <a href="../../../模块电路/运放相关/比较器.html">
+            
+                    
+                    比较器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7.6.3" data-path="../../../模块电路/运放相关/电压跟随器.html">
+            
+                <a href="../../../模块电路/运放相关/电压跟随器.html">
+            
+                    
+                    电压跟随器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7.6.4" data-path="../../../模块电路/运放相关/运放简介.html">
+            
+                <a href="../../../模块电路/运放相关/运放简介.html">
+            
+                    
+                    运放简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="../../../基础.html">
+            
+                <a href="../../../基础.html">
+            
+                    
+                    基础
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    IC
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" >
+            
+                <span>
+            
+                    
+                    TOP
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1.1" data-path="../../../../IC/TOP/IC介绍.html">
+            
+                <a href="../../../../IC/TOP/IC介绍.html">
+            
+                    
+                    IC介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    IT
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" >
+            
+                <span>
+            
+                    
+                    Git
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1.1" data-path="../../../../IT/git/GIT.html">
+            
+                <a href="../../../../IT/git/GIT.html">
+            
+                    
+                    GIT
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../../../../IT/WEB/web.html">
+            
+                <a href="../../../../IT/WEB/web.html">
+            
+                    
+                    WEB
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" >
+            
+                <span>
+            
+                    
+                    基础知识
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.3.1" data-path="../../../../IT/基础知识/Conceptions.html">
+            
+                <a href="../../../../IT/基础知识/Conceptions.html">
+            
+                    
+                    Conceptions
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" >
+            
+                <span>
+            
+                    
+                    编程
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.4.1" >
+            
+                <span>
+            
+                    
+                    C
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.4.1.1" data-path="../../../../IT/编程/C/ACMcoder.html">
+            
+                <a href="../../../../IT/编程/C/ACMcoder.html">
+            
+                    
+                    AC Mcoder
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4.1.2" data-path="../../../../IT/编程/C/C语言基础.html">
+            
+                <a href="../../../../IT/编程/C/C语言基础.html">
+            
+                    
+                    C语言基础
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4.1.3" data-path="../../../../IT/编程/C/C语言应用.html">
+            
+                <a href="../../../../IT/编程/C/C语言应用.html">
+            
+                    
+                    C语言应用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4.1.4" data-path="../../../../IT/编程/C/奇怪问题.html">
+            
+                <a href="../../../../IT/编程/C/奇怪问题.html">
+            
+                    
+                    奇怪问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4.1.5" data-path="../../../../IT/编程/C/算法.html">
+            
+                <a href="../../../../IT/编程/C/算法.html">
+            
+                    
+                    算法
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4.2" >
+            
+                <span>
+            
+                    
+                    LEETCODE
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.4.2.1" data-path="../../../../IT/编程/LEETCODE/力扣.html">
+            
+                <a href="../../../../IT/编程/LEETCODE/力扣.html">
+            
+                    
+                    力扣
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4.3" >
+            
+                <span>
+            
+                    
+                    Python
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.4.3.1" data-path="../../../../IT/编程/Python/jupyter/jupyter.html">
+            
+                <a href="../../../../IT/编程/Python/jupyter/jupyter.html">
+            
+                    
+                    Jupyter
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4.3.2" >
+            
+                <span>
+            
+                    
+                    QT
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.4.3.2.1" data-path="../../../../IT/编程/Python/QT/PyQt.html">
+            
+                <a href="../../../../IT/编程/Python/QT/PyQt.html">
+            
+                    
+                    Py Qt
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4.3.3" data-path="../../../../IT/编程/Python/Query/Query.html">
+            
+                <a href="../../../../IT/编程/Python/Query/Query.html">
+            
+                    
+                    Query
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4.3.4" data-path="../../../../IT/编程/Python/CMD.html">
+            
+                <a href="../../../../IT/编程/Python/CMD.html">
+            
+                    
+                    CMD
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4.4" data-path="../../../../IT/编程/面向对象.html">
+            
+                <a href="../../../../IT/编程/面向对象.html">
+            
+                    
+                    面向对象
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" >
+            
+                <span>
+            
+                    
+                    计组
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.5.1" >
+            
+                <span>
+            
+                    
+                    《计算机体系结构与SOC设计》
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.5.1.1" >
+            
+                <span>
+            
+                    
+                    C 3
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.5.1.1.1" data-path="../../../../IT/计组/《计算机体系结构与SOC设计》/C3/流水线.html">
+            
+                <a href="../../../../IT/计组/《计算机体系结构与SOC设计》/C3/流水线.html">
+            
+                    
+                    流水线
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5.1.2" data-path="../../../../IT/计组/《计算机体系结构与SOC设计》/C1.html">
+            
+                <a href="../../../../IT/计组/《计算机体系结构与SOC设计》/C1.html">
+            
+                    
+                    C 1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5.1.3" data-path="../../../../IT/计组/《计算机体系结构与SOC设计》/C2%20ISA.md">
+            
+                <span>
+            
+                    
+                    C 2 ISA
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5.2" data-path="../../../../IT/计组/计算机结构/计算机结构.html">
+            
+                <a href="../../../../IT/计组/计算机结构/计算机结构.html">
+            
+                    
+                    计算机结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    信通
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" >
+            
+                <span>
+            
+                    
+                    通信原理
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1.1" data-path="../../../../信通/通信原理/调制.html">
+            
+                <a href="../../../../信通/通信原理/调制.html">
+            
+                    
+                    调制
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" >
+            
+                <span>
+            
+                    
+                    办公软件使用
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" >
+            
+                <span>
+            
+                    
+                    EXCEL
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1.1" data-path="../../../../办公软件使用/EXCEL/EXCEL技巧.html">
+            
+                <a href="../../../../办公软件使用/EXCEL/EXCEL技巧.html">
+            
+                    
+                    EXCEL技巧
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" >
+            
+                <span>
+            
+                    
+                    招聘资料收集
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../../../../招聘资料收集/专代/专代.html">
+            
+                <a href="../../../../招聘资料收集/专代/专代.html">
+            
+                    
+                    专代
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" >
+            
+                <span>
+            
+                    
+                    医疗器械研发
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.2.1" data-path="../../../../招聘资料收集/医疗器械研发/行业基础知识.html">
+            
+                <a href="../../../../招聘资料收集/医疗器械研发/行业基础知识.html">
+            
+                    
+                    行业基础知识
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" >
+            
+                <span>
+            
+                    
+                    半导体
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.3.1" data-path="../../../../招聘资料收集/半导体/面试提问.html">
+            
+                <a href="../../../../招聘资料收集/半导体/面试提问.html">
+            
+                    
+                    面试提问
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4" >
+            
+                <span>
+            
+                    
+                    硬件
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.4.1" data-path="../../../../招聘资料收集/硬件/Hardware%20Framework.md">
+            
+                <span>
+            
+                    
+                    Hardware Framework
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4.2" data-path="../../../../招聘资料收集/硬件/常见基础问题.html">
+            
+                <a href="../../../../招聘资料收集/硬件/常见基础问题.html">
+            
+                    
+                    常见基础问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4.3" data-path="../../../../招聘资料收集/硬件/开放性问题.html">
+            
+                <a href="../../../../招聘资料收集/硬件/开放性问题.html">
+            
+                    
+                    开放性问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4.4" data-path="../../../../招聘资料收集/硬件/笔试.html">
+            
+                <a href="../../../../招聘资料收集/硬件/笔试.html">
+            
+                    
+                    笔试
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.5" data-path="../../../../招聘资料收集/resource.html">
+            
+                <a href="../../../../招聘资料收集/resource.html">
+            
+                    
+                    Resource
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.6" data-path="../../../../招聘资料收集/岗位需求.html">
+            
+                <a href="../../../../招聘资料收集/岗位需求.html">
+            
+                    
+                    岗位需求
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.7" data-path="../../../../招聘资料收集/面试.html">
+            
+                <a href="../../../../招聘资料收集/面试.html">
+            
+                    
+                    面试
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.8" data-path="../../../../招聘资料收集/面试准备流程.html">
+            
+                <a href="../../../../招聘资料收集/面试准备流程.html">
+            
+                    
+                    面试准备流程
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../../../.." >时钟信号上下拉</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <p>&#x4E0A;&#x62C9;&#xFF0C;&#x5C31;&#x662F;&#x901A;&#x8FC7;&#x4E00;&#x4E2A;&#x7535;&#x963B;&#x5C06;&#x4FE1;&#x53F7;&#x63A5;&#x7535;&#x6E90;&#xFF0C;&#x4E00;&#x822C;&#x7528;&#x4E8E;&#x65F6;&#x949F;&#x4FE1;&#x53F7;&#x6570;&#x636E;&#x4FE1;&#x53F7;&#x7B49;&#x3002;&#x4E0B;&#x62C9;&#xFF0C;&#x5C31;&#x662F;&#x901A;&#x8FC7;&#x4E00;&#x4E2A;&#x7535;&#x963B;&#x5C06;&#x4FE1;&#x53F7;&#x63A5;&#x5730;&#xFF0C;&#x4E00;&#x822C;&#x7528;&#x4E8E;&#x4FDD;&#x62A4;&#x4FE1;&#x53F7;&#x3002;</p>
+<p>&#x8FD9;&#x662F;&#x6839;&#x636E;&#x7535;&#x8DEF;&#x9700;&#x8981;&#x8BBE;&#x8BA1;&#x7684;&#xFF0C;&#x4E3B;&#x8981;&#x76EE;&#x7684;&#x662F;&#x4E3A;&#x4E86;&#x9632;&#x6B62;&#x5E72;&#x6270;&#xFF0C;&#x589E;&#x52A0;&#x7535;&#x8DEF;&#x7684;&#x7A33;&#x5B9A;&#x6027;&#x3002;</p>
+<p>&#x5047;&#x5982;<strong>&#x6CA1;&#x6709;&#x4E0A;&#x62C9;</strong>&#xFF0C;&#x65F6;&#x949F;&#x548C;&#x6570;&#x636E;&#x4FE1;&#x53F7;&#x5BB9;&#x6613;&#x51FA;&#x9519;&#xFF0C;&#x6BD5;&#x7ADF;&#xFF0C;CPU&#x7684;&#x529F;&#x7387;&#x6709;&#x9650;&#xFF0C;&#x5E26;&#x5F88;&#x591A;BUS&#x7EBF;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x63D0;&#x4F9B;&#x9AD8;&#x7535;&#x5E73;&#x4FE1;&#x53F7;&#x6709;&#x4E9B;&#x5403;&#x529B;&#x3002;&#x800C;&#x4E00;&#x65E6;&#x8FD9;&#x4E9B;&#x4FE1;&#x53F7;&#x88AB;&#x8D1F;&#x8F7D;&#x6216;&#x8005;&#x5E72;&#x6270;&#x62C9;&#x4E0B;&#x5230;&#x67D0;&#x4E2A;&#x7535;&#x538B;&#x4E0B;&#xFF0C;CPU&#x65E0;&#x6CD5;&#x6B63;&#x786E;&#x5730;&#x63A5;&#x6536;&#x4FE1;&#x606F;&#x548C;&#x53D1;&#x51FA;&#x6307;&#x4EE4;&#xFF0C;&#x53EA;&#x80FD;&#x4E0D;&#x65AD;&#x5730;&#x590D;&#x4F4D;&#x91CD;&#x542F;&#x3002;</p>
+<p>&#x5047;&#x5982;&#x6CA1;&#x6709;&#x4E0B;&#x62C9;&#xFF0C;&#x4FDD;&#x62A4;&#x7535;&#x8DEF;&#x6781;&#x6613;&#x53D7;&#x5230;&#x5916;&#x754C;&#x5E72;&#x6270;&#xFF0C;&#x4F7F;CPU&#x8BEF;&#x4EE5;&#x4E3A;&#x88AB;&#x4FDD;&#x62A4;&#x5BF9;&#x8C61;&#x51FA;&#x95EE;&#x9898;&#x800C;&#x91C7;&#x53D6;&#x4FDD;&#x62A4;&#x52A8;&#x4F5C;&#xFF0C;&#x5BFC;&#x81F4;&#x8BEF;&#x4FDD;&#x62A4;&#x3002;</p>
+<p>&#x4E0A;&#x62C9;&#x4E0B;&#x62C9;&#xFF0C;&#x8981;&#x6839;&#x636E;&#x7535;&#x8DEF;&#x8981;&#x6C42;&#x6765;&#x8BBE;&#x7F6E;&#x3002;</p>
+<h3 id="&#x5982;&#x4F55;&#x9009;&#x62E9;&#x4E0A;&#x62C9;&#x7535;&#x963B;&#x503C;"><strong>&#x5982;&#x4F55;&#x9009;&#x62E9;&#x4E0A;&#x62C9;&#x7535;&#x963B;&#x503C;</strong></h3>
+<p>&#x4F4E;&#x7535;&#x963B;&#x503C;&#x79F0;&#x4E3A;&#x5F3A;&#x4E0A;&#x62C9;&#xFF08;&#x7535;&#x6D41;&#x6D41;&#x52A8;&#x8F83;&#x591A;&#xFF09;&#xFF0C;&#x9AD8;&#x7535;&#x963B;&#x503C;&#x79F0;&#x4E3A;&#x5F31;&#x4E0A;&#x62C9;&#xFF08;&#x7535;&#x6D41;&#x8F83;&#x5C11;&#xFF09;</p>
+<p><strong>&#x89C4;&#x5219; 1&#xFF1A;&#x503C;&#x4E0D;&#x80FD;&#x592A;&#x9AD8;&#x3002;</strong></p>
+<p>&#x4E0A;&#x62C9;&#x503C;&#x8D8A;&#x9AD8;&#xFF0C;&#x8F93;&#x5165;&#x7AEF;&#x7684;&#x7535;&#x538B;&#x5C31;&#x8D8A;&#x4F4E;&#x3002;&#x91CD;&#x8981;&#x7684;&#x662F;&#xFF0C;&#x7535;&#x538B;&#x8981;&#x8DB3;&#x591F;&#x9AD8;&#xFF0C;&#x82AF;&#x7247;&#x624D;&#x80FD;&#x5C06;&#x5176;&#x89C6;&#x4E3A;&#x9AD8;&#x7535;&#x5E73;&#x6216;&#x903B;&#x8F91;1&#x8F93;&#x5165;&#x3002;</p>
+<p>&#x4F8B;&#x5982;&#xFF0C;&#x5982;&#x679C;&#x4F7F;&#x7528;&#x5177;&#x6709; 10V &#x7535;&#x6E90;&#x7684; CD4017&#xFF0C;&#x5219;&#x8F93;&#x5165;&#x7AEF;&#x81F3;&#x5C11;&#x9700;&#x8981; 7V &#x624D;&#x80FD;&#x5C06;&#x5176;&#x89C6;&#x4E3A; HIGH&#x3002;</p>
+<p><strong>&#x89C4;&#x5219;2&#xFF1A;&#x4F46;&#x5B83;&#x4E5F;&#x4E0D;&#x80FD;&#x592A;&#x5C0F;&#x3002;</strong></p>
+<p>&#x4F8B;&#x5982;&#xFF0C;&#x5982;&#x679C;&#x60A8;&#x9009;&#x62E9;100 &#x3A9;&#xFF0C;&#x95EE;&#x9898;&#x662F;&#x5F53;&#x6309;&#x4E0B;&#x6309;&#x94AE;&#x65F6;&#xFF0C;&#x60A8;&#x4F1A;&#x83B7;&#x5F97;&#x5927;&#x91CF;&#x7535;&#x6D41;&#x6D41;&#x7ECF;&#x5B83;&#x3002;</p>
+<p>&#x4F7F;&#x7528;9V&#x7535;&#x6E90;&#x65F6;&#xFF0C;&#x60A8;&#x53EF;&#x4EE5;&#x5728;100 &#x3A9;&#xFF08;90 mA&#xFF09;&#x83B7;&#x5F97;9V&#x7535;&#x538B;&#x3002;&#x8FD9;&#x662F;&#x4E0D;&#x5FC5;&#x8981;&#x7684;&#x529F;&#x7387;&#x6D6A;&#x8D39;&#xFF0C;&#x4F46;&#x8FD9;&#x4E5F;&#x610F;&#x5473;&#x7740;&#x7535;&#x963B;&#x5668;&#x9700;&#x8981;&#x627F;&#x53D7;0.81W&#x3002;&#x5927;&#x591A;&#x6570;&#x7535;&#x963B;&#x5668;&#x53EA;&#x80FD;&#x5904;&#x7406;&#x9AD8;&#x8FBE;0.25W&#x7684;&#x529F;&#x7387;&#x3002;</p>
+<p><img src="https://note.youdao.com/yws/res/371/WEBRESOURCE11356bbd9af898150ec0e7b29f250627" alt="image.png"></p>
+<h3 id="&#x7ECF;&#x9A8C;&#x6CD5;&#x5219;"><strong>&#x7ECF;&#x9A8C;&#x6CD5;&#x5219;</strong></h3>
+<p>&#x4E00;&#x822C;&#x89C4;&#x5219;&#x662F;&#x4F7F;&#x7528;&#x6BD4;&#x8F93;&#x5165;&#x5F15;&#x811A;&#x7684;&#x8F93;&#x5165;&#x963B;&#x6297;&#xFF08;R2&#xFF09;**&#x5C0F;&#x4E00;&#x4E2A;&#x6570;&#x91CF;&#x7EA7;&#xFF08;1/10&#xFF09;**&#x7684;&#x4E0A;&#x62C9;&#x7535;&#x963B;&#xFF08;R1&#xFF09;&#xFF0C;&#x5C0F;10&#x500D;&#x7684;&#x7535;&#x963B;&#x503C;&#x3002;</p>
+<p>&#x901A;&#x5E38;&#xFF0C;10 k&#x3A9;&#x7684;&#x4E0A;&#x62C9;&#x503C;&#x5C31;&#x53EF;&#x4EE5;&#x89E3;&#x51B3;&#x95EE;&#x9898;&#x3002;&#x4F46;&#x662F;&#xFF0C;&#x5982;&#x679C;&#x60A8;&#x60F3;&#x4E86;&#x89E3;&#x5B83;&#x7684;&#x5DE5;&#x4F5C;&#x539F;&#x7406;&#xFF0C;&#x8BF7;&#x7EE7;&#x7EED;&#x9605;&#x8BFB;&#x3002;</p>
+<h4 id="&#x4E0A;&#x62C9;&#x7535;&#x963B;&#x5668;&#x5982;&#x4F55;&#x5DE5;&#x4F5C;&#xFF1F;"><strong>&#x4E0A;&#x62C9;&#x7535;&#x963B;&#x5668;&#x5982;&#x4F55;&#x5DE5;&#x4F5C;&#xFF1F;</strong></h4>
+<p>&#x60A8;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x5206;&#x538B;&#x5668;&#x516C;&#x5F0F;&#x67E5;&#x627E;&#x672A;&#x6309;&#x4E0B;&#x6309;&#x94AE;&#x65F6;&#x8F93;&#x5165;&#x5F15;&#x811A;&#x4E0A;&#x7684;&#x7535;&#x538B;&#xFF1A;</p>
+<p>&#x5982;&#x679C;&#x5BF9;&#x4E0A;&#x62C9;R1&#x4F7F;&#x7528;1M&#x3A9;&#x7535;&#x963B;&#xFF0C;&#x5E76;&#x4E14;&#x8F93;&#x5165;&#x5F15;&#x811A;&#x7684;&#x963B;&#x6297;R2&#x7EA6;&#x4E3A;1M&#x3A9;&#xFF08;&#x5F62;&#x6210;&#x5206;&#x538B;&#x5668;&#xFF09;&#xFF0C;&#x5219;&#x8F93;&#x5165;&#x5F15;&#x811A;&#x4E0A;&#x7684;&#x7535;&#x538B;&#x7EA6;&#x4E3A;VCC&#x7684;&#x4E00;&#x534A;&#xFF0C;&#x5E76;&#x4E14;&#x5FAE;&#x63A7;&#x5236;&#x5668;&#x53EF;&#x80FD;&#x4E0D;&#x4F1A;&#x5C06;&#x5F15;&#x811A;&#x8BB0;&#x5F55;&#x4E3A;&#x5904;&#x4E8E;&#x9AD8;&#x7535;&#x5E73;&#x72B6;&#x6001;&#x3002;&#x5728;5V&#x7CFB;&#x7EDF;&#x4E0A;&#xFF0C;&#x8F93;&#x5165;&#x7535;&#x538B;&#x4E3A;2.5V</p>
+<h4 id="&#x8BA1;&#x7B97;&#x793A;&#x4F8B;"><strong>&#x8BA1;&#x7B97;&#x793A;&#x4F8B;</strong></h4>
+<p>&#x5047;&#x8BBE;&#x60A8;&#x7684;&#x82AF;&#x7247;&#x7684;&#x8F93;&#x5165;&#x963B;&#x6297;&#x4E3A;1M&#x3A9;&#xFF08;&#x5BF9;&#x4E8E;&#x8BB8;&#x591A;&#x82AF;&#x7247;&#x6765;&#x8BF4;&#xFF0C;100k&#x3A9;&#x81F3;1M&#x3A9;&#x662F;&#x6B63;&#x5E38;&#x7684;&#xFF09;&#x3002;&#x5982;&#x679C;&#x60A8;&#x7684;&#x7535;&#x6E90;&#x662F;9V&#xFF0C;&#x5E76;&#x4E14;&#x60A8;&#x9009;&#x62E9;10 k&#x3A9;&#x7684;&#x4E0A;&#x62C9;&#x7535;&#x963B;&#x503C;&#xFF0C;&#x90A3;&#x4E48;&#x8F93;&#x5165;&#x5F15;&#x811A;&#x4E0A;&#x7684;&#x7535;&#x538B;&#x662F;&#x591A;&#x5C11;&#xFF1F;</p>
+<p>&#x8F93;&#x5165;&#x5F15;&#x811A;&#x4E0A;&#x7684;&#x7535;&#x538B;&#x4E3A;8.9V&#xFF0C;&#x8DB3;&#x4EE5;&#x7528;&#x4F5C;&#x9AD8;&#x7535;&#x5E73;&#x8F93;&#x5165;&#x3002;</p>
+<p>&#x901A;&#x5E38;&#xFF0C;&#x5982;&#x679C;&#x60A8;&#x575A;&#x6301;&#x4F7F;&#x7528;&#x4E0D;&#x8D85;&#x8FC7;&#x8F93;&#x5165;&#x963B;&#x6297;&#x5341;&#x500D;&#x7684;&#x4E0A;&#x62C9;&#x7535;&#x963B;&#x7684;&#x7ECF;&#x9A8C;&#x6CD5;&#x5219;&#xFF0C;&#x60A8;&#x5C06;&#x786E;&#x4FDD;&#x8F93;&#x5165;&#x5F15;&#x811A;&#x4E0A;&#x59CB;&#x7EC8;&#x5177;&#x6709;&#x81F3;&#x5C11;90%&#x7684;VDD&#x7535;&#x538B;&#x3002;</p>
+<p>&#x7531;&#x4E8E;&#x901A;&#x5E38;&#x9700;&#x8981;&#x4E0A;&#x62C9;&#x7535;&#x963B;&#xFF0C;&#x56E0;&#x6B64;&#x8BB8;&#x591A;MCU&#xFF08;&#x5982;Arduino&#x5E73;&#x53F0;&#x4E0A;&#x7684;ATmega328&#x5FAE;&#x63A7;&#x5236;&#x5668;&#xFF09;&#x90FD;&#x5177;&#x6709;&#x53EF;&#x4EE5;&#x542F;&#x7528;&#x548C;&#x7981;&#x7528;&#x7684;&#x5185;&#x90E8;&#x4E0A;&#x62C9;&#x7535;&#x963B;&#x3002;&#x8981;&#x5728; Arduino &#x4E0A;&#x542F;&#x7528;&#x5185;&#x90E8;&#x4E0A;&#x62C9;&#xFF0C;&#x60A8;&#x53EF;&#x4EE5;&#x5728; setup&#xFF08;&#xFF09; &#x51FD;&#x6570;&#x4E2D;&#x4F7F;&#x7528;&#x4EE5;&#x4E0B;&#x4EE3;&#x7801;&#x884C;&#xFF1A;</p>
+<p><code>COPY CODEpinMode(5, INPUT_PULLUP); // Enable internal pull-up resistor on pin 5</code>
+1
+&#x9700;&#x8981;&#x6307;&#x51FA;&#x7684;&#x53E6;&#x4E00;&#x4EF6;&#x4E8B;&#x662F;&#xFF0C;&#x4E0A;&#x62C9;&#x7535;&#x963B;&#x8D8A;&#x5927;&#xFF0C;&#x5F15;&#x811A;&#x5BF9;&#x7535;&#x538B;&#x53D8;&#x5316;&#x7684;&#x54CD;&#x5E94;&#x901F;&#x5EA6;&#x5C31;&#x8D8A;&#x6162;&#x3002;&#x8FD9;&#x662F;&#x56E0;&#x4E3A;&#x9988;&#x7535;&#x8F93;&#x5165;&#x5F15;&#x811A;&#x7684;&#x7CFB;&#x7EDF;&#x672C;&#x8D28;&#x4E0A;&#x662F;&#x4E00;&#x4E2A;&#x4E0E;&#x4E0A;&#x62C9;&#x7535;&#x963B;&#x8026;&#x5408;&#x7684;&#x7535;&#x5BB9;&#x5668;&#xFF0C;&#x56E0;&#x6B64;&#x5F62;&#x6210;RC&#x6EE4;&#x6CE2;&#x5668;&#xFF0C;&#x800C;RC&#x6EE4;&#x6CE2;&#x5668;&#x9700;&#x8981;&#x4E00;&#x4E9B;&#x65F6;&#x95F4;&#x6765;&#x5145;&#x7535;&#x548C;&#x653E;&#x7535;&#x3002;&#x5982;&#x679C;&#x60A8;&#x6709;&#x4E00;&#x4E2A;&#x975E;&#x5E38;&#x5FEB;&#x901F;&#x53D8;&#x5316;&#x7684;&#x4FE1;&#x53F7;&#xFF08;&#x5982;USB&#xFF09;&#xFF0C;&#x9AD8;&#x963B;&#x503C;&#x4E0A;&#x62C9;&#x7535;&#x963B;&#x53EF;&#x4EE5;&#x9650;&#x5236;&#x5F15;&#x811A;&#x6539;&#x53D8;&#x72B6;&#x6001;&#x7684;&#x901F;&#x5EA6;(&#x4FE1;&#x53F7;&#x8FD8;&#x5177;&#x6709;&#x53EF;&#x9760;&#x6027;)&#x3002;&#x8FD9;&#x5C31;&#x662F;&#x4E3A;&#x4EC0;&#x4E48;&#x60A8;&#x7ECF;&#x5E38;&#x4F1A;&#x5728;USB&#x4FE1;&#x53F7;&#x7EBF;&#x4E0A;&#x770B;&#x5230;1k&#x81F3;4.7K&#x3A9;&#x7535;&#x963B;&#x7684;&#x539F;&#x56E0;&#x3002;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="时钟.html" class="navigation navigation-prev " aria-label="Previous page: 时钟">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../ESP32/ESP32.html" class="navigation navigation-next " aria-label="Next page: ESP 32">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"时钟信号上下拉","level":"1.2.6.3.1.2","depth":5,"next":{"title":"ESP 32","level":"1.2.6.3.2","depth":4,"path":"EE硬件/处理器/嵌入式/ESP32/ESP32.md","ref":"EE硬件/处理器/嵌入式/ESP32/ESP32.md","articles":[]},"previous":{"title":"时钟","level":"1.2.6.3.1.1","depth":5,"path":"EE硬件/处理器/嵌入式/CLK/时钟.md","ref":"EE硬件/处理器/嵌入式/CLK/时钟.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"EE硬件/处理器/嵌入式/CLK/时钟信号上下拉.md","mtime":"2024-06-28T05:10:26.074Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2024-07-16T13:08:15.088Z"},"basePath":"../../../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../../../gitbook/gitbook.js"></script>
+    <script src="../../../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

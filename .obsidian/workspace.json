@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EE硬件/元器件/电容/电容.md",
+                "file": "EE硬件/基础.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "EE硬件/元器件/电容/电容.md",
+                "file": "EE硬件/基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "EE硬件/元器件/电容/电容.md",
+                "file": "EE硬件/基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EE硬件/元器件/电容/电容.md"
+                "file": "EE硬件/基础.md"
               }
             }
           }
@@ -148,51 +148,50 @@
   },
   "active": "f83a52c90e66e3aa",
   "lastOpenFiles": [
-    "_book/search_index.json",
-    "_book/招聘资料收集/面试准备流程.html",
-    "_book/招聘资料收集/面试.html",
-    "_book/招聘资料收集/岗位需求.html",
-    "_book/招聘资料收集/resource.html",
-    "_book/IT/计组/《计算机体系结构与SOC设计》/C3/流水线.html",
-    "_book/IT/编程/Python/Query/Query.html",
-    "_book/IT/编程/Python/QT/PyQt.html",
-    "_book/IT/编程/Python/jupyter/jupyter.html",
-    "_book/EE硬件/基础.html",
-    "_book/EE硬件/模块电路/串口/网口/网口.html",
-    "_book/pics/Pasted image 20240717103900.png",
-    "_book/pics/Pasted image 20240717103730.png",
-    "_book/pics/Pasted image 20240717103640.png",
-    "_book/pics/Pasted image 20240717103633.png",
-    "_book/pics/Pasted image 20240717103628.png",
-    "_book/pics/Pasted image 20240717103546.png",
-    "_book/pics/Pasted image 20240717103244.png",
-    "_book/pics/Pasted image 20240717103233.png",
-    "_book/办公软件使用/EXCEL/EXCEL技巧.md",
-    "_book/信通/通信原理/调制.md",
-    "_book/招聘资料收集/硬件/常见基础问题.md",
-    "_book/招聘资料收集/硬件/笔试.md",
-    "_book/招聘资料收集/硬件/开放性问题.md",
-    "_book/招聘资料收集/硬件/Hardware Framework.md",
-    "_book/招聘资料收集/半导体/面试提问.md",
-    "_book/招聘资料收集/医疗器械研发/行业基础知识.md",
-    "_book/招聘资料收集/专代/专代.md",
-    "_book/招聘资料收集/面试准备流程.md",
-    "_book/招聘资料收集/resource.md",
-    "_book/招聘资料收集/面试.md",
-    "_book/招聘资料收集/岗位需求.md",
-    "_book/IT/计组/《计算机体系结构与SOC设计》/C3/流水线.md",
-    "_book/IT/编程/Python/Query/Query.md",
-    "_book/IT/编程/Python/QT/PyQt.md",
-    "_book/IT/编程/Python/jupyter/jupyter.md",
-    "_book/IT/计组/计算机结构/计算机结构.md",
-    "_book/IT/计组/《计算机体系结构与SOC设计》/C2 ISA.md",
-    "_book/IT/计组/《计算机体系结构与SOC设计》/C1.md",
-    "_book/IT/编程/Python/CMD.md",
-    "_book/IT/编程/LEETCODE/力扣.md",
-    "_book/IT/编程/C/算法.md",
-    "_book/IT/编程/C/奇怪问题.md",
-    "_book/IT/编程/C/C语言应用.md",
-    "_book/IT/git/Pasted image 20240306223310.png",
-    "_book/IC/TOP/728fcd3c11d1f2438ac7ef3e91b98e9.png"
+    "IC/TOP/IC介绍.md",
+    "IC/TOP/728fcd3c11d1f2438ac7ef3e91b98e9.png",
+    "IT/编程/面向对象.md",
+    "EE硬件/功率电子/LDO/LDO.md",
+    "Publearn/招聘资料收集/硬件/常见基础问题.md",
+    "EE硬件/元器件/电容/电容.md",
+    "Publearn/IT/计组/《计算机体系结构与SOC设计》/C3/流水线.md",
+    "Publearn/IT/计组/《计算机体系结构与SOC设计》/C3/流水线.html",
+    "Publearn/IT/编程/Python/Query/Query.md",
+    "Publearn/IT/编程/Python/Query/Query.html",
+    "Publearn/IT/编程/Python/QT/PyQt.md",
+    "Publearn/IT/编程/Python/QT/PyQt.html",
+    "Publearn/IT/编程/Python/jupyter/jupyter.md",
+    "Publearn/IT/编程/Python/jupyter/jupyter.html",
+    "Publearn/EE硬件/模块电路/串口/网口/网口.md",
+    "Publearn/EE硬件/模块电路/串口/网口/网口.html",
+    "Publearn/EE硬件/模块电路/串口/网口/Pasted image 20240124194729.png",
+    "Publearn/EE硬件/模块电路/串口/电平/串口&电平标准.md",
+    "Publearn/EE硬件/模块电路/串口/电平/串口&电平标准.html",
+    "Publearn/EE硬件/模块电路/串口/电平/Pasted image 20240120110931.png",
+    "Publearn/EE硬件/模块电路/串口/电平/Pasted image 20240119180800.png",
+    "Publearn/EE硬件/模块电路/串口/USB/USB.md",
+    "Publearn/EE硬件/模块电路/串口/USB/USB.html",
+    "Publearn/EE硬件/模块电路/串口/USB/Pasted image 20240123170312.png",
+    "Publearn/EE硬件/模块电路/串口/SPI/SPI.md",
+    "Publearn/EE硬件/模块电路/串口/SPI/SPI.html",
+    "Publearn/EE硬件/模块电路/串口/RS/RS.md",
+    "Publearn/EE硬件/模块电路/串口/RS/RS.html",
+    "Publearn/EE硬件/模块电路/串口/I2C/I2C.md",
+    "Publearn/EE硬件/模块电路/串口/I2C/I2C.html",
+    "Publearn/EE硬件/处理器/嵌入式/模块/模块.md",
+    "Publearn/EE硬件/处理器/嵌入式/模块/Pasted image 20240109212809.png",
+    "Publearn/EE硬件/处理器/嵌入式/中断/中断.md",
+    "Publearn/EE硬件/处理器/嵌入式/中断/Pasted image 20240127145349.png",
+    "Publearn/EE硬件/处理器/嵌入式/中断/Pasted image 20240127111048.png",
+    "Publearn/EE硬件/处理器/嵌入式/STM32/STM32时钟.md",
+    "Publearn/EE硬件/处理器/嵌入式/STM32/VSCode+Keil 5 MDK配置STM32F407开发环境.md",
+    "Publearn/EE硬件/处理器/嵌入式/STM32/STM32.md",
+    "Publearn/EE硬件/处理器/嵌入式/ESP32/ESP32.md",
+    "Publearn/EE硬件/处理器/嵌入式/CLK/时钟.md",
+    "Publearn/EE硬件/处理器/嵌入式/CLK/时钟信号上下拉.md",
+    "Publearn/EE硬件/处理器/FPGA/基础/Pasted image 20240303232137.png",
+    "Publearn/EE硬件/处理器/FPGA/基础/基础.md",
+    "Publearn/EE硬件/EDA/Cadence/sch/sch.md",
+    "Publearn/EE硬件/EDA/Cadence/sch/Pasted image 20240229091606.png"
   ]
 }

@@ -1,0 +1,198 @@
+{
+  "main": {
+    "id": "71ea52d865d4f992",
+    "type": "split",
+    "children": [
+      {
+        "id": "5089be278f3efdb8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f83a52c90e66e3aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "EE硬件/元器件/电容/电容.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d67e0eaff13ddc87",
+    "type": "split",
+    "children": [
+      {
+        "id": "7615516abb6c5e95",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "74d3826ed7493880",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "05991d4921030984",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2f26b5c007fa5230",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ebb1abb8001b9743",
+    "type": "split",
+    "children": [
+      {
+        "id": "9c6f90f3f1c2e805",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ee9cebf5c405f9f3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "EE硬件/元器件/电容/电容.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6c4864afea256768",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "EE硬件/元器件/电容/电容.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e89e9a3f0f3f26f9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "dd27255edc4bfa6f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "EE硬件/元器件/电容/电容.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "f83a52c90e66e3aa",
+  "lastOpenFiles": [
+    "_book/search_index.json",
+    "_book/招聘资料收集/面试准备流程.html",
+    "_book/招聘资料收集/面试.html",
+    "_book/招聘资料收集/岗位需求.html",
+    "_book/招聘资料收集/resource.html",
+    "_book/IT/计组/《计算机体系结构与SOC设计》/C3/流水线.html",
+    "_book/IT/编程/Python/Query/Query.html",
+    "_book/IT/编程/Python/QT/PyQt.html",
+    "_book/IT/编程/Python/jupyter/jupyter.html",
+    "_book/EE硬件/基础.html",
+    "_book/EE硬件/模块电路/串口/网口/网口.html",
+    "_book/pics/Pasted image 20240717103900.png",
+    "_book/pics/Pasted image 20240717103730.png",
+    "_book/pics/Pasted image 20240717103640.png",
+    "_book/pics/Pasted image 20240717103633.png",
+    "_book/pics/Pasted image 20240717103628.png",
+    "_book/pics/Pasted image 20240717103546.png",
+    "_book/pics/Pasted image 20240717103244.png",
+    "_book/pics/Pasted image 20240717103233.png",
+    "_book/办公软件使用/EXCEL/EXCEL技巧.md",
+    "_book/信通/通信原理/调制.md",
+    "_book/招聘资料收集/硬件/常见基础问题.md",
+    "_book/招聘资料收集/硬件/笔试.md",
+    "_book/招聘资料收集/硬件/开放性问题.md",
+    "_book/招聘资料收集/硬件/Hardware Framework.md",
+    "_book/招聘资料收集/半导体/面试提问.md",
+    "_book/招聘资料收集/医疗器械研发/行业基础知识.md",
+    "_book/招聘资料收集/专代/专代.md",
+    "_book/招聘资料收集/面试准备流程.md",
+    "_book/招聘资料收集/resource.md",
+    "_book/招聘资料收集/面试.md",
+    "_book/招聘资料收集/岗位需求.md",
+    "_book/IT/计组/《计算机体系结构与SOC设计》/C3/流水线.md",
+    "_book/IT/编程/Python/Query/Query.md",
+    "_book/IT/编程/Python/QT/PyQt.md",
+    "_book/IT/编程/Python/jupyter/jupyter.md",
+    "_book/IT/计组/计算机结构/计算机结构.md",
+    "_book/IT/计组/《计算机体系结构与SOC设计》/C2 ISA.md",
+    "_book/IT/计组/《计算机体系结构与SOC设计》/C1.md",
+    "_book/IT/编程/Python/CMD.md",
+    "_book/IT/编程/LEETCODE/力扣.md",
+    "_book/IT/编程/C/算法.md",
+    "_book/IT/编程/C/奇怪问题.md",
+    "_book/IT/编程/C/C语言应用.md",
+    "_book/IT/git/Pasted image 20240306223310.png",
+    "_book/IC/TOP/728fcd3c11d1f2438ac7ef3e91b98e9.png"
+  ]
+}

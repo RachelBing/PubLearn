@@ -1,0 +1,155 @@
+{
+  "main": {
+    "id": "3717ca7fdc12a3e0",
+    "type": "split",
+    "children": [
+      {
+        "id": "74cb6d4a63a2b459",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a4c333ac7955dfaa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "岗位需求.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "db0930ae88c421dd",
+    "type": "split",
+    "children": [
+      {
+        "id": "b670a5c28a79e229",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "98ed919a5f17f96a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ae068cab165a4830",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "055aaf2b6f8fbaaa",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "221b4ab1063a9887",
+    "type": "split",
+    "children": [
+      {
+        "id": "0eb9e1e4293c7c3c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c523733b94241130",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "岗位需求.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2991a6c926754820",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "岗位需求.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "36a1ab0c31f713fe",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "dedd06bd1f729e4f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "岗位需求.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "a4c333ac7955dfaa",
+  "lastOpenFiles": [
+    "面试.md",
+    "resource.md",
+    "面试准备流程.md"
+  ]
+}

@@ -38,7 +38,7 @@ buck-boost
 通过VSENSE分压设计
 
 **电感**最小值
-![[Pasted image 20240117224629.png]]
+![](Pasted%20image%2020240117224629.png)
 KIND 0.1---0.4
 电感最大电流：额定+纹波
 ESR小
@@ -48,9 +48,9 @@ ESR小
 	[转折频率，剪切频率，截止频率，极点，零点的概念总结 - 电源技术 - 电子工程世界-论坛 (eeworld.com.cn)](http://bbs.eeworld.com.cn/thread-649003-1-1.html)
 	根据剪切频率设计Co-min
 I根据电感算为1.116A
-![[Pasted image 20240118114900.png]]
+![](Pasted%20image%2020240118114900.png)
 电压 纹波最大：
-![[Pasted image 20240118114747.png]]
+![](Pasted%20image%2020240118114747.png)
 
 **续流二极管**
 肖特基

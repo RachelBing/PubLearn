@@ -27,7 +27,7 @@ ls -h
 
 
 如果没把新建项目clone到本地后更改再上传，试图上传完全无关的项目：
-![[Pasted image 20240306223310.png]]
+![](Pasted%20image%2020240306223310.png)
 添加项目对应的远端仓库，地址（参数2），名字叫learn_PY（参数1）
 git remote add learn_PY https://github.com/RachelBing/Learn-PY
 

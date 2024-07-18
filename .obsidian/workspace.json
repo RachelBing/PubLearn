@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SUMMARY.md",
+                "file": "EE硬件/元器件/电容/电容.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SUMMARY.md",
+                "file": "EE硬件/元器件/电容/电容.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SUMMARY.md",
+                "file": "EE硬件/元器件/电容/电容.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SUMMARY.md"
+                "file": "EE硬件/元器件/电容/电容.md"
               }
             }
           }
@@ -148,51 +148,51 @@
   },
   "active": "f83a52c90e66e3aa",
   "lastOpenFiles": [
-    "README.md",
-    "SUMMARY.md",
     "_book/search_index.json",
-    "_book/index.html",
-    "_book/招聘资料收集/面试准备流程.md",
-    "_book/招聘资料收集/面试.md",
-    "_book/招聘资料收集/硬件/笔试.md",
-    "_book/招聘资料收集/硬件/开放性问题.md",
-    "_book/招聘资料收集/硬件/常见基础问题.md",
-    "_book/招聘资料收集/硬件/Hardware Framework.md",
-    "_book/招聘资料收集/硬件",
-    "_book/招聘资料收集/技术栈.mindmap",
-    "_book/招聘资料收集/岗位需求.md",
-    "_book/招聘资料收集/半导体/面试提问.md",
-    "_book/招聘资料收集/半导体/FAB相关介绍.note.pdf",
-    "_book/招聘资料收集/半导体",
-    "_book/招聘资料收集/医疗器械研发/行业基础知识.md",
-    "_book/招聘资料收集/医疗器械研发",
-    "_book/招聘资料收集/关联工作和简历.mindmap",
-    "_book/招聘资料收集/专代/专代.md",
-    "_book/招聘资料收集/专代",
-    "_book/招聘资料收集/resource.md",
-    "_book/招聘资料收集/IT/无标题脑图.mindmap",
+    "_book/招聘资料收集/面试准备流程.html",
+    "_book/招聘资料收集/面试.html",
+    "_book/招聘资料收集/岗位需求.html",
+    "_book/招聘资料收集/resource.html",
+    "_book/IT/计组/《计算机体系结构与SOC设计》/C3/流水线.html",
+    "_book/IT/编程/Python/Query/Query.html",
+    "_book/IT/编程/Python/QT/PyQt.html",
+    "_book/IT/编程/Python/jupyter/jupyter.html",
+    "_book/EE硬件/基础.html",
+    "_book/EE硬件/模块电路/串口/网口/网口.html",
+    "_book/pics/Pasted image 20240717103900.png",
+    "_book/pics/Pasted image 20240717103730.png",
+    "_book/pics/Pasted image 20240717103640.png",
+    "_book/pics/Pasted image 20240717103633.png",
+    "_book/pics/Pasted image 20240717103628.png",
+    "_book/pics/Pasted image 20240717103546.png",
+    "_book/pics/Pasted image 20240717103244.png",
+    "_book/pics/Pasted image 20240717103233.png",
     "_book/办公软件使用/EXCEL/EXCEL技巧.md",
     "_book/信通/通信原理/调制.md",
-    "_book/IT/编程/面向对象.md",
-    "_book/EE硬件/基础.md",
-    "_book/gitbook/images/apple-touch-icon-precomposed-152.png",
-    "_book/EE硬件/元器件/继电器/继电器.md",
-    "_book/EE硬件/元器件/磁路&变压器/磁路&变压器.md",
-    "_book/EE硬件/处理器/嵌入式/中断/中断.md",
-    "_book/EE硬件/处理器/嵌入式/中断/Pasted image 20240127145349.png",
-    "_book/EE硬件/处理器/嵌入式/中断/Pasted image 20240127111048.png",
-    "_book/EE硬件/处理器/嵌入式/模块/模块.md",
-    "_book/EE硬件/处理器/嵌入式/模块/Pasted image 20240109212809.png",
-    "_book/EE硬件/处理器/嵌入式/STM32/VSCode+Keil 5 MDK配置STM32F407开发环境.md",
-    "_book/EE硬件/处理器/嵌入式/STM32/STM32时钟.md",
-    "_book/EE硬件/处理器/嵌入式/STM32/STM32.md",
-    "_book/EE硬件/处理器/嵌入式/ESP32/ESP32.md",
-    "_book/EE硬件/处理器/嵌入式/CLK/时钟信号上下拉.md",
-    "_book/EE硬件/处理器/FPGA/基础/Pasted image 20240303232137.png",
-    "_book/EE硬件/处理器/介绍/Pasted image 20230924132911.png",
-    "_book/EE硬件/处理器/介绍/Pasted image 20230924132839.png",
-    "_book/EE硬件/处理器/介绍/Pasted image 20230924132818.png",
-    "_book/EE硬件/处理器/介绍/Pasted image 20230924132758.png",
-    "_book/EE硬件/处理器/介绍/Pasted image 20230924132722.png"
+    "_book/招聘资料收集/硬件/常见基础问题.md",
+    "_book/招聘资料收集/硬件/笔试.md",
+    "_book/招聘资料收集/硬件/开放性问题.md",
+    "_book/招聘资料收集/硬件/Hardware Framework.md",
+    "_book/招聘资料收集/半导体/面试提问.md",
+    "_book/招聘资料收集/医疗器械研发/行业基础知识.md",
+    "_book/招聘资料收集/专代/专代.md",
+    "_book/招聘资料收集/面试准备流程.md",
+    "_book/招聘资料收集/resource.md",
+    "_book/招聘资料收集/面试.md",
+    "_book/招聘资料收集/岗位需求.md",
+    "_book/IT/计组/《计算机体系结构与SOC设计》/C3/流水线.md",
+    "_book/IT/编程/Python/Query/Query.md",
+    "_book/IT/编程/Python/QT/PyQt.md",
+    "_book/IT/编程/Python/jupyter/jupyter.md",
+    "_book/IT/计组/计算机结构/计算机结构.md",
+    "_book/IT/计组/《计算机体系结构与SOC设计》/C2 ISA.md",
+    "_book/IT/计组/《计算机体系结构与SOC设计》/C1.md",
+    "_book/IT/编程/Python/CMD.md",
+    "_book/IT/编程/LEETCODE/力扣.md",
+    "_book/IT/编程/C/算法.md",
+    "_book/IT/编程/C/奇怪问题.md",
+    "_book/IT/编程/C/C语言应用.md",
+    "_book/IT/git/Pasted image 20240306223310.png",
+    "_book/IC/TOP/728fcd3c11d1f2438ac7ef3e91b98e9.png"
   ]
 }
